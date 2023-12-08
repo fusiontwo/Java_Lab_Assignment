@@ -87,7 +87,7 @@ public class MyFrame extends JFrame implements KeyListener{
 		
 		JButton btn3 = new JButton(">>");
 		btn3.addActionListener(e->{
-			if(xpos <= panel1.getWidth() - img.getIconWidth()) {  // 화면 크기를 늘리고 줄여도 적용되도록!
+			if(xpos <= panel2.getWidth() - img.getIconWidth()) {  // 화면 크기를 늘리고 줄여도 적용되도록!
 				xpos += 10;
 				charIcon.setLocation(xpos, ypos);
 			}

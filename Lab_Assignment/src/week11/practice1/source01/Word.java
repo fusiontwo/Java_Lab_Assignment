@@ -41,7 +41,5 @@ public class Word {
 		// TODO Auto-generated method stub
 		return this.eng + ": " + this.kor;
 	}
-	
-	
 
 }

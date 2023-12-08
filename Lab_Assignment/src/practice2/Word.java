@@ -1,4 +1,4 @@
-package week15.practice2;
+package practice2;
 
 public class Word {
 	String eng;

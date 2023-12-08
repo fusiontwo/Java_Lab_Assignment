@@ -62,12 +62,14 @@ public class MyFrame extends JFrame {
 		
 	}
 	
+	
 	void removeTableData() {
 		if (model.getRowCount()>0) {
 			model = new DefaultTableModel(header, 0);
 			table.setModel(model);
 		}
 	}
+	
 	
 	private void initTableData() {
 		// TODO Auto-generated method stub
@@ -91,6 +93,7 @@ public class MyFrame extends JFrame {
 		}
 	}
 
+	
 	private void init() {
 		// TODO Auto-generated method stub
 		initNorthpanel();
@@ -171,6 +174,7 @@ public class MyFrame extends JFrame {
 		this.frame.add(northpanel, BorderLayout.NORTH);
 	}
 
+	
 	private void initCenter() {
 		// TODO Auto-generated method stub
 		this.ta = new JTextArea();
